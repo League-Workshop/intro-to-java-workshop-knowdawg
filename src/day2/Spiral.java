@@ -21,6 +21,7 @@ public class Spiral {
 		r2d2.turn(360/50);
 			// 8. Set the pen width to i
 		r2d2.setPenWidth(i);
+		r2d2.setPenColor(Color.CYAN);
 		}
 	}
 }

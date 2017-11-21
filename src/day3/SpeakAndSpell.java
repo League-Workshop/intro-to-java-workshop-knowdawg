@@ -9,7 +9,7 @@ import com.sun.speech.freetts.VoiceManager;
  * Teacher's Note: 
  * Have the kids play with the Speak & Spell. 
  * The first Speak & Spell was introduced at the summer Consumer Electronics Show in June 1978, making it 
- * one of the earliest handheld electronic devices with a visual display to use interchangeable game cartridges. 
+ * one of the earliest hand held electronic devices with a visual display to use interchangeable game cartridges. 
  * Discuss with students how you would make this program. 
  * Allow them to code it themselves, or use this recipe.
  **/
@@ -17,6 +17,9 @@ import com.sun.speech.freetts.VoiceManager;
 public class SpeakAndSpell {
 
 	public static void main(String[] args) {
+		String spell;
+		for(int i=0;i<50;i++);
+		spell = JOptionPane.showMessageDialog(null, "Hey");
 		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
 
 		// 2. Catch the user's answer in a String
